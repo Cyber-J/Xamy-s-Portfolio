@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+body{
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+     
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5% 10% 0 10%;
+    
+}
+
+#logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+     
+}
+
+.nav-bar ul{
+  display: flex;
+  gap: 140px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-size: 20px;
+  
+  margin: 10px auto;
+}
+
+.nav-bar li:hover{
+    color: #008000;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 5%;
+    margin: 5%;
+    
+}
+
+#bitmoji{
+    height: 250px;
+    width: auto;
+}
+
+span{
+    color: #008000;
+}
+
+.hero-text p{
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.2;
+}
+
+.logos{
+    display: flex;
+    gap: 70px;
+    margin-top: 12%;
+    /* background-color: #FFF; */
+    
+}
+
+.logos img{
+    
+    color: #FFF;
+    height: 40px;
+    width: auto;
+    margin: inherit;
+    padding: inherit;
+}
+
+.what-I-do{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 3%;
+     
+    
+}
+
+
+.bio{
+    width: 600px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    wrap: wrap;
+}
+
+.skills h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: 6% auto;
+}
+
+.intro h2, .showcase h2, .services h2, .reachout h2{
+    
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 69px;
+
+}
+
+.My-Picture{
+    height: 500px;
+    width: auto;
+    border: 4px solid #008000;
+}
+
+.skills .techs{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    width: 600px;
+    flex-wrap: wrap;
+    
+     
+}
+
+.techs img{
+    height: 35px;
+    width: auto;
+    justify-content: center;
+}
+
+.techs p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 28px;
+    
+}
+
+
+
+.intro .some-text{
+    display: flex;
+    flex-direction: column;
+     
+}
+
+ 
+
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    margin: 2%;
+    
+     
+}
+.shopbeta, .weatherapp, .loango, .todolistapp, .speechtotext{
+    
+    border: 4px solid #008000;
+    border-radius: 10px;
+    width: 630px;
+    height: 180px;
+    display: flex;
+    gap: 18px;
+    padding: 3%;
+}
+
+
+
+.showcase aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+     
+    
+}
+
+.showcase ul, .showcase .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    
+}
+
+.showcase ul p{
+    background-color: #008000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.works img{
+    height: 180px;
+    width: auto;
+     
+}
+
+.showcase button{
+
+    width: max-content;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+
+     
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5%;
+}
+
+.services button{
+    width: max-content;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.services img{
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.services p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.debug img{
+    width: 150px;
+}
+
+.webdev, .API, .debug{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #008000;
+    border-radius: 20px;
+    width: 350px;
+    height:200px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+form input{
+    background-color:  #242526;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    padding: 2%;
+    margin: 2%;
+}
+
+form textarea{
+    background-color: #242526;
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+    margin: 2%;
+}
+
+.MS{
+    background-color: #242526;
+    border: none;
+    border-radius: 5px;
+    width: 575px;
+    height: 20px;
+}
+
+.form button{
+    width: 600px;
+    color: #FFF;
+    border: 2px solid #ffffff;
+    background-color: transparent ;
+    margin: 2%;
+    padding: 10px;
+}
+
+.reachout .contact2{
+    background-image: linear-gradient(#008000, #000);
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.contact2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 19px;
+    /* padding: 10px; */
+    margin: 20px;
+}
+
+.contact2 .text{
+    opacity: 0.5;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #008000;
+
+    
+    
+}
+
+footer p{
+    padding: 15px;
+
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 480px){
+    .nav-bar ul, .My-Picture, #bitmoji, .reachout .contact2 {
+        display: none;
+
+    }
+
+    .bio{
+        width: 200px;
+        wrap: nowrap;
+         
+    }
+
+    .shopbeta, .weatherapp, .loango, .todolistapp, .speechtotext{
+    
+       
+        width: 630px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        
+         
+    }
+
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .intro h2, .showcase h2, .services h2, .reachout h2{
+    
+        font-size: 28px;
+    
+}
+
